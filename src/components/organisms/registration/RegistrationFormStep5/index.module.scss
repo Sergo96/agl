@@ -1,0 +1,24 @@
+
+
+
+.form {
+  margin-top: 40px;
+}
+.formField {
+  width: 100%;
+  max-width: 380px;
+}
+.info {
+  margin-top: 142px;
+}
+
+@include sm-max {
+  .formField {
+    max-width: 350px;
+  }
+}
+@include xs-max {
+  .formField {
+    max-width: 100%;
+  }
+}

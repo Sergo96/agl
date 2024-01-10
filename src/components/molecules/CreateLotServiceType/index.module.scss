@@ -1,0 +1,31 @@
+.header{
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.section{
+  padding: 50px 0;
+  width: 100%;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.label{
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.item{
+  margin: 0 17px;
+  margin-right: 45px;
+}
+
+.radioBtnHeader {
+  display: flex;
+  font-size: 16px;
+  margin-top: 12px;
+}
+
+.deliveryConditionsWrp{
+  display: flex;
+  margin: 0 -17px;
+}

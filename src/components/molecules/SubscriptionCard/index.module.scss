@@ -1,0 +1,63 @@
+.root {
+  margin: 0 22px;
+  width: 330px;
+  background: white;
+  box-shadow: 0px 3px 6px -4px rgba(0, 0, 0, 0.12), 0px 6px 16px rgba(0, 0, 0, 0.08),
+    0px 9px 28px 8px rgba(0, 0, 0, 0.05);
+  &NotSelected {
+    background: none;
+    box-shadow: none;
+    border: 1px solid #b0b0b0;
+    border-radius: 6px;
+  }
+}
+.cost {
+  padding: 25px 38px 20px;
+}
+.privilege {
+  margin-bottom: 12px;
+  svg {
+    margin-right: 10px;
+  }
+}
+
+.title {
+  height: 54px;
+  text-transform: uppercase;
+  &Starter {
+    background: linear-gradient(267.51deg, #e4e4e4 68.88%, rgba(255, 232, 232, 0.5) 121.9%);
+  }
+  &Professional {
+    background: linear-gradient(264.82deg, #a7daff 36.82%, rgba(99, 199, 255, 0) 129.58%);
+  }
+  &Premium {
+    background: linear-gradient(266.94deg, #87df5d 8.64%, rgba(197, 255, 103, 0.5) 240.43%);
+  }
+  &NotSelected {
+    background: none;
+    border-top: 1px solid rgba(175, 175, 175, 0.5);
+    border-bottom: 1px solid rgba(175, 175, 175, 0.5);
+  }
+}
+
+.privileges {
+  margin-top: 23px;
+  padding: 0 38px;
+}
+.privilegesTitle {
+  color: #6d6d6d;
+  margin-bottom: 18px;
+}
+.button {
+  margin-top: auto;
+  padding: 0 38px 38px;
+}
+.tariffInfo {
+  padding: 0 38px 27px;
+}
+.planActive {
+  text-transform: uppercase;
+}
+.planDate {
+  color: #989898;
+}

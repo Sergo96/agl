@@ -1,0 +1,82 @@
+
+.mainWrp {
+  width: 100%;
+  max-width: 1190px;
+  min-height: 100vh;
+  padding-top: 120px;
+  padding-bottom: 362px;
+}
+
+.columnWrp {
+  position: relative;
+  width: 50%;
+  max-width: 780px;
+}
+
+.description {
+  width: 100%;
+  max-width: 518px;
+  margin-bottom: 86px;
+}
+
+.title {
+  width: 100%;
+  max-width: 518px;
+  margin-bottom: 16px;
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 48.2px;
+}
+
+.subtitle {
+  font-size: $font-size-sm;
+  width: 100%;
+  max-width: 430px;
+  font-weight: 300;
+  color: $info-color;
+}
+
+.btn {
+  max-width: 238px;
+  padding: 15px 0;
+  margin-bottom: 66px;
+}
+
+.linkItemTitle {
+  margin-left: 11.5px;
+  min-width: 140px;
+  text-decoration: underline;
+  color: $info-color !important
+}
+
+.formLoyout {
+  background-color: $secondary-color;
+  width: 100%;
+  max-width: 380px;
+  padding: 36px 35px;
+  border-radius: 6px;
+  box-shadow: 0px 9px 28px 8px #0000000D;
+}
+
+.formLoyoutTitle {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: $font-size-md;
+  margin-bottom: 30px;
+  opacity: 0.85;
+  max-width: 250px;
+}
+
+.selectsWrp {
+  margin-bottom: 31px;
+}
+
+.selectItem {
+  margin-bottom: 20px;
+  font-size: $font-size-xs;
+  line-height: 16px;
+}
+
+.tab{
+  margin-bottom: 0px;
+}

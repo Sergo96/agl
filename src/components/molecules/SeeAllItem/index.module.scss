@@ -1,0 +1,25 @@
+
+
+.itemWrp{
+  width: 100%;
+  max-width: 230px;
+  min-height: 250px;
+  background-color: $secondary-color;
+  padding: 19px 33px 25px 29px;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 6px;
+  box-shadow: 9px 6px 6px -4px #0000001F;
+  cursor: pointer;
+  border: 1px solid $primary-color;
+}
+
+.title{
+  color: $primary-color;
+  text-transform: uppercase;
+  font-size: $font-size-xs;
+  font-weight: 700;
+}
+
+.arrowBtn {
+  max-width: 20px;
+}

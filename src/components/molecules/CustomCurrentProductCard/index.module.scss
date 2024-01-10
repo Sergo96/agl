@@ -1,0 +1,107 @@
+.root {
+  width: 100%;
+  position: relative;
+  max-width: 582px;
+  border-radius: 4px 4px 0 0;
+  min-height: 240px;
+  background: $secondary-color;
+  background-size: cover;
+  padding: 18px 0 36px 0;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  padding-bottom: 10px;
+  width: 100%;
+  padding: 0 30px 14px 30px;
+  color: $info-color;
+}
+
+.subtitle {
+  font-size: $font-size-xs;
+}
+
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3px;
+  width: 100%;
+  padding: 14px 30px 10px 30px;
+  color: $info-color;
+}
+
+.delivery {
+  padding: 0 10px;
+}
+
+.deliveryMethodValue {
+  color: $light-grey-color;
+  width: 100%;
+}
+
+.price {
+  min-width: 100px;
+  font-size: 24px;
+  color: $secondary-color;
+  padding: 5px 18px 4px 29px;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.myCustomCurrentProducts {
+  .price {
+    background: #faad14;
+  }
+}
+
+.customCurrenProductForSell {
+  .price {
+    background: $primary-color;
+  }
+}
+
+.customCurrenProductForBuy {
+  .price {
+    background-color: $price-color;
+  }
+}
+
+.logoBox {
+  width: 48px;
+  height: 48px;
+  background: white;
+  position: relative;
+
+  img {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  &::after {
+    position: absolute;
+    content: ' ';
+    top: 0;
+    bottom: 0;
+    transform: scale(1.1);
+    display: block;
+    border: 1px solid #dad4ca;
+    border-radius: 4px;
+    width: 100%;
+  }
+}
+
+.icon {
+  margin-right: 14px;
+}
+
+.deliveryTilte {
+  margin-bottom: 5px;
+}
+
+.value {
+  position: absolute;
+  bottom: 8px;
+  right: 30px;
+  color: $default-color;
+}

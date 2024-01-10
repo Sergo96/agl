@@ -1,0 +1,84 @@
+.header {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+
+.selectedType {
+  background: white;
+  border: none;
+  box-shadow: 0px 3px 6px -4px rgba(0, 0, 0, 0.12), 0px 6px 16px rgba(0, 0, 0, 0.08), 0px 9px 28px 8px rgba(0, 0, 0, 0.05);
+}
+
+.section {
+  padding: 50px 0;
+  width: 100%;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 -10px;
+}
+
+.itemBorder {
+  display: grid;
+  grid-template-rows: 1fr 1.5fr 0.5fr;
+  width: 100%;
+  max-width: 580px;
+  padding: 38px 84px 48px 47px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  margin: 0 10px 30px 10px;
+  transition: 1s;
+}
+
+.itemDate {
+  max-width: 279px;
+  width: 100%;
+}
+
+.gracePeriod{
+  position: relative;
+}
+
+.inputGracePeriod{
+  padding-left: 55px;
+  padding-right: 29px;
+}
+
+.inputGracePeriodSubtitle{
+  position: absolute;
+  bottom: 9px;
+  left: 17px;
+}
+
+.label {
+  text-transform: uppercase;
+}
+
+.radioBtnHeader {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.input {
+  width: 100%;
+  max-width: 279px;
+}
+
+.formInputAreaField {
+  resize: none;
+  height: 130px !important;
+
+  :global {
+    textarea.ant-input {
+      min-height: 130px;
+    }
+  }
+}
+
+.formFieldLarge {
+  padding-top: 30px;
+}

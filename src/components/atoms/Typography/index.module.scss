@@ -1,0 +1,76 @@
+.regular {
+  font-weight: 400;
+}
+.mediumWeight {
+  font-weight: 500;
+}
+.semiBold {
+  font-weight: 600;
+}
+.bold {
+  font-weight: 700;
+}
+.extraBold {
+  font-weight: 900;
+}
+.extraSmall {
+  font-size: $font-size-xs;
+  line-height: 20px;
+}
+.small {
+  font-size: $font-size-sm;
+  line-height: 22px;
+}
+.medium {
+  font-size: $font-size-md;
+  line-height: 26px;
+}
+.large {
+  font-size: $font-size-lg;
+  line-height: 31px;
+}
+.extraLarge {
+  font-size: $font-size-xl;
+  line-height: 40px;
+}
+.extraExtraLarge {
+  font-size: $font-size-xxl;
+  line-height: 39px;
+}
+.extraExtraExtraLarge {
+  font-size: $font-size-xxxl;
+  line-height: 39px;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+.mainColor {
+  color: $info-color;
+}
+.secondaryColor {
+  color: $light-grey-color;
+}
+.whiteColor {
+  color: $secondary-color;
+}
+.primaryColor {
+  color: $primary-color;
+}
+.mediumGrey {
+  color: #9e9e9e;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.header {
+  margin-bottom: 32px;
+}
+.nowrap {
+  white-space: nowrap;
+}

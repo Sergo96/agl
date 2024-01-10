@@ -1,0 +1,40 @@
+
+
+.mainWrp {
+  width: 100%;
+}
+
+.wrp{
+  width: 100%;
+  max-width: 1190px;
+  padding-bottom: 170px;
+}
+
+.grid{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+  align-items: start;
+}
+.descriptionWrp{
+  width: 100%;
+  max-width: 291px;
+}
+.title{
+  margin-bottom: 40px;
+}
+.subtitle{
+  margin-bottom: 20px;
+}
+.requirementsList{
+  width: 100%;
+}
+
+.btnWrp{
+  margin-top: 60px;
+}
+.btn{
+  border: 1px solid $primary-color;
+  color: $primary-color;
+  border-radius: 2px;
+}

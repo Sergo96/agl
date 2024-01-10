@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.formFieldbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formFieldLabel {
+  margin-bottom: 8px;
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.849) !important;
+}
+.button {
+  padding: 0;
+  height: 22px;
+  margin-bottom: 7px;
+  display: inline-block;
+  border-bottom: 1px dashed $primary-color;
+  background: none;
+  color: $primary-color !important;
+  max-width: 165px;
+  font-size: 12px;
+  line-height: $font-size-xs;
+  border: none;
+  min-height: auto;
+
+  &:focus {
+    background: none;
+  }
+  &:hover {
+    background: none;
+    color: $primary-color !important;
+  }
+}

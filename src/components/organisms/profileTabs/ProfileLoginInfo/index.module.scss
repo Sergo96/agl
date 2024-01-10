@@ -1,0 +1,68 @@
+.root {
+  width: 50%;
+}
+.formFieldLarge {
+  flex-basis: 100%;
+  margin-bottom: 14px;
+}
+.formField {
+  flex-basis: 48%;
+  margin-bottom: 30px;
+}
+.formPasswordField {
+  margin-top: 40px;
+  width: 100%;
+}
+.loginInfoText {
+  color: #767676;
+}
+.button {
+  border: none;
+  background: none;
+  width: auto;
+  padding: 0;
+  & span {
+    margin-left: 10px;
+  }
+}
+
+.buttons {
+  margin-top: 40px;
+  margin-bottom: 90px;
+}
+
+.submitButton {
+  width: auto;
+}
+.cancelButton {
+  margin-right: 30px;
+  width: auto;
+}
+
+.icon {
+  transform: translateY(7px);
+}
+
+@include sm-max {
+  .root {
+    width: 100%;
+  }
+  .formFieldLarge {
+    max-width: 534px;
+  }
+  .loginInfoText {
+    max-width: 534px;
+    margin-bottom: 26px;
+  }
+}
+@include xs-max {
+  .formFieldLarge {
+    max-width: 100%;
+  }
+  .loginInfoText {
+    max-width: 100%;
+  }
+  .formField {
+    flex-basis: 100%;
+  }
+}

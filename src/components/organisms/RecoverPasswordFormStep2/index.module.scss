@@ -1,0 +1,32 @@
+.layoutWrp {
+  margin: auto auto;
+  max-width: 462px;
+  min-height: calc(100% - 110px);
+}
+.shadowTitle {
+  text-align: center;
+  font-size: $font-size-xl;
+  color: $info-color;
+  font-weight: 500;
+}
+.formField {
+  margin-top: 24px;
+}
+
+.textField {
+  text-align: center;
+  margin-top: 37px;
+  font-size: $font-size-lg;
+}
+
+.iconWrp {
+  background: $secondary-color;
+  border-radius: 50%;
+  display: inline-block;
+  width: 141px;
+  height: 141px;
+}
+
+.icon {
+  margin: auto;
+}

@@ -1,0 +1,24 @@
+.formField {
+  width: 100%;
+  max-width: 380px;
+  margin-bottom: 20px;
+}
+.selectField {
+  :global {
+    .ant-select {
+      width: 100%;
+    }
+  }
+}
+
+@include sm-max {
+  .formField {
+    max-width: 350px;
+  }
+}
+
+@include xs-max {
+  .formField {
+    max-width: 100%;
+  }
+}

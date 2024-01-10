@@ -1,0 +1,104 @@
+.root {
+  width: 100%;
+  max-width: 580px;
+  border-radius: 4px 4px 0 0;
+  border-top: 3px solid;
+  min-height: 240px;
+  background: url(/assets/images/auctionsBg.png);
+  background-size: cover;
+  padding: 16px 0;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  border-bottom: 1px solid $default-color;
+  padding-bottom: 10px;
+  width: 100%;
+  padding: 0 25px 10px 16px;
+  color: $info-color;
+}
+
+.title {
+  font-size: $font-size-sm;
+  font-weight: 500;
+}
+
+.subtitle {
+  font-size: $font-size-xs;
+}
+
+.priceCurrency {
+  font-size: $font-size-xs;
+  text-transform: uppercase;
+}
+
+.priceValue {
+  font-size: 24px;
+  padding: 0 5px;
+  text-transform: uppercase;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3px;
+  width: 100%;
+  padding: 10px 25px 10px 16px;
+  color: $info-color;
+}
+
+.deliveryMethodValue {
+  color: $light-grey-color;
+  width: 100%;
+}
+
+.footer {
+  width: 100%;
+  padding: 0 25px 0 16px;
+}
+
+.btn {
+  width: auto;
+  min-height: 30px;
+  color: $primary-color;
+}
+
+.myAuctions {
+  border-top-color: $price-color;
+  color: $price-color;
+}
+
+.auctionsInProgress {
+  border-top-color: $primary-color;
+  color: $primary-color;
+}
+
+.myCommercialOffers {
+  border-top-color: #fff494;
+  color: #fff494;
+}
+
+.myCommercialOffersResponse {
+  border-top-color: #faad14;
+  color: #faad14;
+}
+
+.invitesCommercialOffer {
+  border-top-color: #7018ff;
+  color: #7018ff
+}
+
+.invitesAuctions {
+  border-top-color: #18ffd5;
+  
+  .priceValue{
+    color: $primary-color!important;
+  }
+}
+
+.btnReject{
+  color: $light-grey-color;
+  height: 30px;
+  max-width: 110px;
+}

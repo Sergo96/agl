@@ -1,0 +1,72 @@
+
+
+.mainWrp {
+  width: 100%;
+  padding-bottom: 218px;
+}
+
+.wrp{
+  width: 100%;
+  max-width: 1190px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+  align-items: flex-start;
+}
+.description{
+  max-width: 290px;
+}
+.title{
+  margin-bottom: 40px;
+}
+.subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: $font-size-sm;
+  max-width: 272px;
+
+}
+.requirementsList{
+  width: 100%;
+}
+
+.item{
+  margin-bottom: 43px;
+  max-width: 276px;
+}
+
+.btn{
+  border: 1px solid $primary-color;
+  color: $primary-color;
+  border-radius: 2px;
+}
+
+.offersWrp {
+  margin: -14px -22.5px;
+}
+.offerItem{
+  margin: 19px 22.5px;
+  cursor: pointer;
+}
+
+.btnWrp {
+  color: $secondary-color;
+  width: 100%;
+  max-width: 236px;
+  margin-top: 220px;
+}
+
+.btnBuy{
+  background: $price-color;
+  margin-bottom: 20px;
+  color: $secondary-color;
+  height: 40px;
+}
+
+.btnSell{
+  background-color: $primary-color;
+  color: $secondary-color;
+  height: 40px;
+}

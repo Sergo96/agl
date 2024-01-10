@@ -1,0 +1,38 @@
+.burger {
+  background: none;
+  border: none;
+  z-index: 9;
+  height: 26px;
+  justify-content: space-around;
+  flex-flow: column nowrap;
+  overflow: hidden;
+  margin-left: 8px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.burgerOpen {
+  position: absolute;
+  top: 28px;
+}
+.burgerLines {
+  width: 24px;
+  height: 2.4px;
+  background-color: #1890ff;
+  transform-origin: 0.7px;
+  transition: all 0.3s linear;
+}
+.burgerLinesOpen {
+  background-color: #ffffff;
+
+  &:nth-child(1) {
+    transform: rotate(45deg);
+  }
+  &:nth-child(2) {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  &:nth-child(3) {
+    transform: rotate(-45deg);
+  }
+}

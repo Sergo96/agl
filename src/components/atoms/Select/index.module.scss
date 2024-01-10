@@ -1,0 +1,11 @@
+
+
+.baseSelect {
+  font-size: $font-size-sm;
+  height: 40px;
+  :global {
+    .ant-select-selection-placeholder {
+      color: $placeholder-color;
+    }
+  }
+}

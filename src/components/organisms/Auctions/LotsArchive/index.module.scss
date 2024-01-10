@@ -1,0 +1,62 @@
+.tableWrp{
+  width: 100%;
+}
+
+.wrp{
+  width: 100%;
+  :global {
+    .ant-popover-arrow {
+      display: none;
+    }
+    .ant-checkbox-checked .ant-checkbox-inner::after {
+      display: none;
+    }
+    .ant-table-tbody > tr.ant-table-row-selected > td{
+      background: transparent;
+    }
+  }
+}
+
+
+.btn{ 
+  font-size: 12px;
+  border-radius: 2px;
+  width: 116px;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.btnActions{
+  cursor: pointer;
+}
+
+.finished {
+  background-color: #CAE6F8;
+  color: #1890FF;
+}
+
+.refused{
+  background-color: #FFFACF;
+  color: #FAAD14
+}
+
+.succeeded {
+  background-color: #D6F1CA;
+  color: #52C41A;
+}
+
+.actionsBtn {
+  cursor: pointer;
+  margin: 5px 0;
+}
+
+.modal{
+  width: 130px;
+  background-color: white;
+}
+
+.deleteBtn {
+  max-width: 164px;
+  font-size: $font-size-xs;
+  color: $primary-color
+}

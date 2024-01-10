@@ -1,0 +1,22 @@
+.root {
+  max-width: 1180px;
+  align-self: center;
+  margin-top: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+.title {
+  font-family: 'Montserrat', sans-serif;
+}
+
+@include lg-max {
+  .root {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
+
+@include sm-max {
+  .title {
+    font-weight: 500;
+  }
+}

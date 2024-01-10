@@ -1,0 +1,7 @@
+.baseRadioButton {
+  display: block;
+  font-size: $font-size-sm;
+  &:not(:first-child) {
+    margin-top: 16px;
+  }
+}

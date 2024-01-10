@@ -1,0 +1,68 @@
+.wrp {
+  width: 100%;
+  max-width: 380px;
+  min-height: 630px;
+  border-radius: 4px;
+
+  :global {
+    .ant-modal-title {
+      font-size: 24px;
+      line-height: 32px;
+    }
+    .ant-modal-body {
+      padding: 20px 20px;
+      overflow-y: scroll;
+    }
+  }
+}
+
+.selectItem{
+  width: 100%;
+  margin-bottom: 20px;
+  height: 40px;
+  :global {
+    .ant-select-selector{
+      height: 40px!important;
+      font-size: $font-size-sm;
+      align-items: center;
+    }
+  }
+}
+.grid{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  grid-gap: 10px;
+  padding: 20px 0
+}
+.item{
+  width: 100%;
+  margin: 0;
+  &:not(:first-child) {
+    margin-top: 0px!important;
+  }
+}
+
+.titleBtn {
+  width: 100%;
+}
+
+
+.btnCreate {
+  width: 100%;
+  max-width: 120px;
+}
+
+.defaultBtn {
+  border: 1px solid $default-color;
+  max-width: 120px;
+}
+.saveBtn {
+  max-width: 120px;
+}
+
+.customItemsWrp {
+  margin-top: 20px;
+}

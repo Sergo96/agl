@@ -1,0 +1,37 @@
+.componentWrp {
+  margin-top: 15px;
+}
+
+.tab {
+  :global {
+    .ant-tabs-ink-bar {
+      display: none;
+    }
+    .ant-tabs-tab {
+      padding: 0;
+    }
+    .ant-tabs-tab-btn {
+      padding: 9px 16px;
+    }
+    .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+      position: relative;
+      color: white;
+    }
+    .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn::before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      background-color: $primary-color;
+      height: 40px;
+      z-index: -1;
+      left: 0;
+      top: 0;
+    }
+    .ant-tabs-tab + .ant-tabs-tab {
+      margin: 0px 0 0 16px;
+    }
+    .ant-tabs-nav::before {
+      border-bottom: 1px solid $default-color;
+    }
+  }
+}

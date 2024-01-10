@@ -1,0 +1,30 @@
+.root{
+  width: 100%;
+  max-width: 1280px;
+  min-height: 100vh;
+  padding-top: 44px;
+}
+
+.header{
+  width: 100%;
+  margin-bottom: 60px;
+  line-height: 28px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: -0.65px;
+}
+
+.data div:nth-child(odd) {
+  background-color: $secondary-color;
+
+}
+
+.item{
+  width: 100%;
+  padding: 15px 20px;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.info{
+  width: 100%;
+  margin-top: 40px;
+}

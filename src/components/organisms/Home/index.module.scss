@@ -1,0 +1,17 @@
+
+
+
+.background {
+  background-image: url('/assets/images/hpBackground.png');
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: 100%;
+  position: relative;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrp {
+  width: 100%;
+  padding-top: 100px;
+}

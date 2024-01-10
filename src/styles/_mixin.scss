@@ -1,0 +1,39 @@
+// 360- 767
+$screen-xs-max: 767px;
+
+// 768 - 1023
+$screen-sm-max: 1023px;
+
+// 1024 - 1439
+$screen-lg-max: 1439px;
+
+// 1440 - 1919
+$screen-xl-max: 1919px;
+
+// < 767
+@mixin xs-max {
+  @media (max-width: #{$screen-xs-max}) {
+    @content;
+  }
+}
+
+// < 1023
+@mixin sm-max {
+  @media (max-width: #{$screen-sm-max}) {
+    @content;
+  }
+}
+
+// < 1439
+@mixin lg-max {
+  @media (max-width: #{$screen-lg-max}) {
+    @content;
+  }
+}
+
+// < 1919
+@mixin xl-max {
+  @media (max-width: #{$screen-xl-max}) {
+    @content;
+  }
+}

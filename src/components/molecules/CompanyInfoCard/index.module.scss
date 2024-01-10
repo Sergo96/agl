@@ -1,0 +1,27 @@
+.logo {
+  border: 1px solid #DAD4CA;
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 180px;
+  height: 180px;
+  margin-right: 17px;
+  padding: 8px;
+}
+
+.header{
+  margin-bottom: 28px;
+}
+
+.grid{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  margin: -10px;
+}
+.column {
+  padding: 10px;
+}
+
+.img{
+  width: 100%;
+}

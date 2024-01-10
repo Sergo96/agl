@@ -1,0 +1,13 @@
+.datePicker {
+  height: 40px;
+  width: 100%;
+  :global {
+    .ant-picker-input > input::placeholder {
+      color: $placeholder-color;
+      font-size: $font-size-sm;
+    }
+    .ant-picker-clear {
+      margin-right: 30px;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.root {
+  margin-top: 100px;
+}
+.companies {
+  margin: 30px 0 40px;
+}
+.whiteBackground {
+  background: white;
+}
+
+@include sm-max {
+  .root {
+    margin-top: 40px;
+  }
+}
+@include xs-max {
+  .root {
+    margin-top: 30px;
+  }
+}

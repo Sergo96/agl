@@ -1,0 +1,26 @@
+stages:
+    - build
+    - deploy
+
+docker-build-master:
+  image: docker:19.03.12
+  stage: build
+  services:
+    - docker:docker:19.03.12-dind
+  before_script:
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+  script:
+    - docker build --pull -t gitlab.secl.pw:5000/ays-agro/frontend .
+    - docker push gitlab.secl.pw:5000/ays-agro/frontend
+  only:
+    - develop
+  tags:
+    - agro
+
+update:
+  stage: deploy
+  script:
+    - cd /scripts/agro
+    - ansible-playbook build.yml
+  tags:
+    - agrosh

@@ -1,0 +1,38 @@
+.backButton {
+  display: flex;
+  align-items: center;
+  color: #7c7e7b;
+  border: none;
+  svg {
+    margin-right: 12px;
+  }
+}
+.payment {
+  margin-top: 40px;
+  padding: 38px 50px 47px;
+  flex-basis: 49%;
+  height: 295px;
+  border: 1px solid #b0b0b0;
+  border-radius: 6px;
+  &Selected {
+    border: none;
+    background: white;
+    box-shadow: 0px 3px 6px -4px rgba(0, 0, 0, 0.12), 0px 6px 16px rgba(0, 0, 0, 0.08),
+      0px 9px 28px 8px rgba(0, 0, 0, 0.05);
+  }
+}
+.description {
+  margin-top: 28px;
+}
+.choiceButton {
+  width: auto;
+}
+.buttons {
+  margin: 100px 0;
+}
+.button {
+  width: auto;
+  &:last-child {
+    margin-left: 15px;
+  }
+}

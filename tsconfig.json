@@ -1,0 +1,120 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "module": "esnext",
+    "target": "es5",
+    "lib": [
+      "es5",
+      "es6",
+      "es7",
+      "es2017",
+      "dom"
+    ],
+    "typeRoots": [
+      "./node_modules/@types",
+      "./next-env.d.ts"
+    ],
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "rootDirs": [
+      "src"
+    ],
+    // check after
+    "sourceMap": true,
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "strict": true,
+    // check after
+    "noEmit": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "downlevelIteration": true,
+    "paths": {
+      // box, input - only view
+      "atoms/*": [
+        "./components/atoms/*"
+      ],
+      // labelInput, LabelSelect - few atoms, only view
+      "molecules/*": [
+        "./components/molecules/*"
+      ],
+      // clientSelect - few atoms or molecules with logic
+      "organisms/*": [
+        "./components/organisms/*"
+      ],
+      // contact us form, categories sidebar etc
+      "templates/*": [
+        "./components/templates/*"
+      ],
+      // pages with templates, organisms, atoms etc
+      "pages/*": [
+        "pages/*"
+      ],
+      "icons/*": [
+        "./components/icons/*"
+      ],
+      "reducers/*": [
+        "./store/reducers/*"
+      ],
+      "actions/*": [
+        "./store/actions/*"
+      ],
+      "selectors/*": [
+        "./store/selectors/*"
+      ],
+      "fonts/*": [
+        "./assets/fonts/*"
+      ],
+      "images/*": [
+        "./assets/images/*"
+      ],
+      "interfaces/*": [
+        "./types/interfaces/*"
+      ],
+      "entries/*": [
+        "./types/entries/*"
+      ],
+      "hooks/*": [
+        "./utils/hooks/*"
+      ],
+      "helpers/*": [
+        "./utils/helpers/*"
+      ],
+      "constants/*": [
+        "./utils/constants/*"
+      ],
+      "validations/*": [
+        "./utils/validations/*"
+      ],
+      "api/*": [
+        "./api/*"
+      ],
+      "styles/*": [
+        "./styles/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "scripts",
+    "webpack",
+    "jest",
+    ".next"
+  ],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ]
+}

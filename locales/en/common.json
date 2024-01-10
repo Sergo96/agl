@@ -1,0 +1,518 @@
+{
+  "header": {
+    "alreadyRegistered": "Already registered?",
+    "noAccount": "No account?",
+    "login": "Login",
+    "logout": "Logout",
+    "registration": "Registration",
+    "tariffPlans": "Tariff plans",
+    "personalArea": "Personal area",
+    "nav": {
+      "currentProducts": "Current products",
+      "buy": "Buy",
+      "sell": "Sell",
+      "auctions": "Auctions",
+      "logistics": "Logistics",
+      "analytics": "Analytics",
+      "news": "News",
+      "support": "Support"
+    },
+    "countrySelect": {
+      "russia": "Russia",
+      "belarus": "Belarus"
+    }
+  },
+  "auth": {
+    "title": "Authorization",
+    "enterLogin": "Enter Login",
+    "forgotPassword": "Forgot password",
+    "enterPassword": "Enter password",
+    "enterEmail": "Enter email",
+    "login": "Login",
+    "password": "Password",
+    "enter": "Enter",
+    "loginErrorMessage": "Wrong login or password",
+    "rememberMe": "Remember me",
+    "newPassword": "New password",
+    "repeatPassword": "Repeat password",
+    "save": "Save",
+    "passwordRecovery": "Password recovery",
+    "passwordRecoverySubtitle": "To reset your password, enter the company email address which you used when registering your account",
+    "passwordRecoveryBtn": "Reset password",
+    "passwordRecoveryStep2": "E-mail has been sent to your email address with a link to reset the password",
+    "validation": {
+      "passwordValidationMinCharactersMessage": "Password must contain at least 6 characters",
+      "passwordValidationTitle": "Password must contain one uppercase, one lowercase, one number and one special case character",
+      "passwordValidationMessage": "Password does not matching the requirements",
+      "required": "This field is required",
+      "passwordMatch": "Password must match",
+      "enterEmail": "Enter email",
+      "enterValidEmail": "Please enter a valid email",
+      "numberRequired": "Please enter a number",
+      "maximumPhoneLength": "Should contain no more than 15 digits"
+    }
+  },
+  "registration": {
+    "step": "Step",
+    "step1Title": "Let's get acquainted. Who are you?",
+    "step2Title": "Enter information about company",
+    "step3Title": "Trustee of the company",
+    "step4Title": "Select the products of interest",
+    "step5Title": "Create a username and password to enter the website",
+    "step1": {
+      "tradeType": {
+        "seller": "Seller",
+        "buyer": "Buyer",
+        "both": "Seller and buyer"
+      },
+      "warning": "You choose the main role of your company on the site. After registration, the role of the company can be changed only after the site administrator checks the company profile again"
+    },
+    "step2": {
+      "company": {
+        "name": {
+          "label": "Company name",
+          "placeholder": "Enter your company name"
+        },
+        "ownership": {
+          "label": "Type of ownership",
+          "placeholder": "Please select"
+        },
+        "legalAddress": {
+          "label": "Legal address",
+          "placeholder": "Enter the legal address of the company"
+        },
+        "payerId": {
+          "label": "Payer account number",
+          "placeholder": "Enter the payer's account number"
+        },
+        "actualAddress": {
+          "label": "Actual address",
+          "secondLabel": "Coincides with legal",
+          "placeholder": "Enter the actual address of the company"
+        },
+        "officePhone": {
+          "label": "Phone number",
+          "placeholder": "Enter your mobile phone number"
+        },
+        "officeEmail": {
+          "label": "Company Email",
+          "placeholder": "Enter your Email"
+        },
+        "country": {
+          "label": "Country of origin",
+          "placeholder": "Enter country"
+        }
+      },
+      "warning": "To confirm registration, we will send an email to the company. If necessary, this email will be used to recover your password."
+    },
+    "step3": {
+      "name": {
+        "label": "Full name of the authorized person",
+        "placeholder": "Enter your full name"
+      },
+      "status": {
+        "label": "Position of the authorized person",
+        "placeholder": "Select a position"
+      },
+      "mobilePhone": {
+        "label": "Mobile phone number",
+        "placeholder": "Enter your mobile phone number"
+      },
+      "workPhone": {
+        "label": "Work phone number",
+        "placeholder": "Enter the work phone number of the authorized person"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Enter your email"
+      },
+      "warning": "After registration is completed, a power of attorney will be generated for the company's authorized representative. The power of attorney will need to be certified and uploaded to the account for confirmation by the administrator"
+    },
+    "step4": {
+      "select": "Select",
+      "selected": "Selected",
+      "productSearch": "Products search",
+      "create": "Create",
+      "customProducts": "Custom products",
+      "tab": {
+        "toBuy": "To Buy",
+        "forSale": "For Sale"
+      },
+      "close": "Close",
+      "save": "Save"
+    },
+    "step5": {
+      "warning": "После завершения регистрации на доверенное лицо компании будет сформирована доверенность.  Доверенность необходимо будет заверить и загрузить в кабинет для подтверждения администратором"
+    },
+    "pending": {
+      "text1": "To confirm your email, we sent you an email to the company's address",
+      "text2": "To complete registration, go to the mail, open the letter and click “confirm”",
+      "text3": "If you have not received your email, please check your “spam” folder or",
+      "text4": "contact us"
+    },
+    "success": {
+      "title": "Thank you for registering",
+      "text1": "Your account has been sent to the administrator for verification. The account verification procedure will take up to 24 hours",
+      "text2": "After the check, we will send you a message"
+    },
+    "navigation": {
+      "prevStep": "Previous Step",
+      "nextStep": "Next Step"
+    }
+  },
+  "profile": {
+    "buttons": {
+      "cancel": "cancel",
+      "save": "save",
+      "upload": "upload"
+    },
+    "imageCard": {
+      "validationMessage": "Image must be smaller than 2MB!",
+      "companyLogo": "Company logo",
+      "format": "Recommended size is 600x600px. Format: jpg, png, tiff",
+      "alt": "Company logo"
+    },
+    "tabs": {
+      "company": "Company",
+      "productstoBuy": "Products to buy",
+      "productsforSale": "Products for sale",
+      "trustee": "Trustee",
+      "login": "Login and Password"
+    },
+    "company": {
+      "activities": {
+        "label": "Main directions of activity",
+        "placeholder": "Enter directions of activity"
+      },
+      "description": {
+        "label": "Company description",
+        "placeholder": "Enter company description"
+      }
+    },
+    "loginAndPassword": {
+      "passwordValidationDescription": "Password must be at least 8 characters long. Contain at least one uppercase letter and a special character.",
+      "resetPassword": "Сбросить пароль"
+    },
+    "trustee": {
+      "description": "A trustee is a representative of the company who will work with the site and is authorized to make transactions on behalf of the company.",
+      "pdfButtonText": "Account Management Power of Attorney Template.pdf",
+      "pdfDescription": "Download the power of attorney template, fill it out and upload it back to the system. After verification by the administrator, the trustee will receive the right to do",
+      "upload": "Upload power of attorney"
+    }
+  },
+  "homePage": {
+    "buy": "Buy",
+    "sell": "Sell",
+    "ourAdvantages": "Our advantages",
+    "findOutBestPrice": "Find out the best price for agricultural products",
+    "typesOfAuctions": "Types of auctions",
+    "selectRegion": "Choose region",
+    "selectProductName": "Select product name",
+    "conditionsTitle": "The conditions for participation in the auction",
+    "topOffers": "Top 5 offers",
+    "addLotForBuy": "Add lot for buy",
+    "addLotForSell": "Add lot for sell",
+    "available": "Available",
+    "lot": "lots",
+    "lots": "lots",
+    "nav": {
+      "tradeOnAgro24": "Trade on Agro24",
+      "participationConditions": "Conditions for participation",
+      "topOffers": "Top 5 offers",
+      "catalog": "Catalog",
+      "news": "News",
+      "contacts": "Contacts"
+    },
+    "seeAllOffers": "See all offers",
+    "catalogTitle": "Products catalog",
+    "showBestPrice": "Show best prices",
+    "fullListOfConditions": "Full list of conditions"
+  },
+  "fields": {},
+  "account": {},
+  "time": {
+    "days": "d",
+    "hours": "h",
+    "minutes": "min"
+  },
+  "auctions": {
+    "buy": "Buy",
+    "sell": "Sell",
+    "typeLotBuy": "Purchase",
+    "typeLotSell": "Sale",
+    "lot": "Lot №",
+    "type": "Type",
+    "paymentType": "Payment type",
+    "back": "Back",
+    "expiredAt": "Expired at",
+    "payment": "Payment",
+    "deliveryPeriod": "Delivery",
+    "currentOffer": "Current offer",
+    "offers": "offers",
+    "prePayment": "Prepayment",
+    "deliveryMethod": "Delivery method",
+    "leadingRate": "Leading rate",
+    "timeLeft": "Time left",
+    "comapyniesPaticipating": "Companies participating in the auction",
+    "editConditions": "Edit conditions",
+    "quantity": "Quantity",
+    "searchLots": "Search for lots",
+    "all": "All",
+    "from": "from",
+    "to": "to",
+    "outOf": "out of",
+    "CO": "CO",
+    "title": {
+      "myAuctions": "My auctions",
+      "auctionsInProgress": "Auctions in progress",
+      "myCO": "My commercial offers",
+      "responseCO": "Commercial offers response",
+      "offers": "Offers",
+      "archive": "Archive"
+    },
+    "product": "Product",
+    "company": "Company",
+    "price": "Price",
+    "finished": "Finished",
+    "status": "Status",
+    "table": {
+      "companyName": "Company name",
+      "rate": "Rate",
+      "additionalConditions": "Additional conditions"
+    },
+    "startingPrice": "Starting price",
+    "noData": "No data",
+    "userHasNoAuctions": "You don't have any auctions, please create a new offer",
+    "dataEmpty": "No data, try other search options",
+    "filter": {
+      "filters": "Filters",
+      "type": "Type",
+      "paymentType": "Payment type",
+      "indicateQuantity": "Indicate the quantity",
+      "indicatePrice": "Indicate the price",
+      "prePayment": "Prepayment",
+      "defferal": "Defferal",
+      "lowestPrice": "The lowest price",
+      "highestPrice": "The highest price",
+      "popular": "Popular",
+      "new": "New"
+    },
+    "details": "Details",
+    "btnReject": "Reject",
+    "cancelAuction": "Cancel auction",
+    "cancelReasonLabel": "If you have a valid reason why the auction cannot take place, you can cancel it.",
+    "cancelReasonModalTitle": "Are you sure you want to cancel the auction?",
+    "cancelReasonModalLabel": "* Please provide a reason for canceling the auction",
+    "accept": "Accept",
+    "delete": "Delete",
+    "deleteSelected": "Delete selected",
+    "deliveryTimeFrom": "Delivery time from",
+    "deliveryTimeTo": "to",
+    "createAuction": "Create an auction",
+    "createCustomCurrentProduct": "Create product",
+    "youHaveTheOpportunityConditions": "You have the opportunity to specify the desired conditions for the order or accept the current",
+    "enterAmount": "Enter the amount:",
+    "enterAmountFrom": "Enter the amount from",
+    "betsConditions": "By placing a bid, you confirm your participation in the auction. Once accepted, the application cannot be rejected",
+    "placeBet": "Place a bet",
+    "refuse": "Refuse",
+    "create": {
+      "navigation": {
+        "prevStep": "Previous Step",
+        "nextStep": "Next Step",
+        "cancel": "Cancel",
+        "placeBet": "Place the bet"
+      },
+      "select": "Select",
+      "selected": "Selected",
+      "step1": {
+        "title": "Step 1/3",
+        "header": "Select procedure type",
+        "createAuction": "Creating an auction",
+        "createAuctionDescription": "The participant starts the bidding procedure. Upon completion, the offer with the best price wins",
+        "requestCO": "Request for commercial proposals",
+        "requestCODescription": "The participant makes a request for commercial offers from market participants without a bidding procedure."
+      },
+      "step2": {
+        "title": "Step 2/3",
+        "headerAuction": "Creating an auction",
+        "headerEditAuction": "Edit issues",
+        "title1": "1. Select the products of interest",
+        "title2CustomCurrentProduct": "2. Select the products of interest",
+        "title1Edit": " 1. Terms of payment",
+        "title2": "2. Terms of payment",
+        "title1CustomCurrentProduct": "1. Enter the serves type",
+        "title2Edit": "2. Specify volume",
+        "title3": "3. Specift volume",
+        "title3CustomCurrentProduct": "3. Delivery",
+        "title3Edit": "3. Delivery",
+        "title4": "4. Delivery",
+        "title4Edit": "4. Place your bet",
+        "title4CustomCurrentProduct": "4. Delivery",
+        "title5CustomCurrentProduct": "4. Enter the price for 1 ton",
+        "title5Auction": "5. Duration of the auction",
+        "title5CommercialOffer": "5. Duration of the commercial offer",
+        "title6": "6. Enter the starting price for the sale",
+        "warning": "The list of available products contains the products that you specified during registration and that have been confirmed by the site administrator",
+        "prePayment": "Prepayment",
+        "defferal": "Defferal",
+        "to": "To:",
+        "defferalDate": "Specify the term specify deferrals",
+        "prePaymentPercent": "Specify the percentage of prepayment",
+        "commentLabel": "You can leave your conditions",
+        "quantityLabel": "Value",
+        "price": "Price",
+        "startingPriceLabel": "Starting price",
+        "deliveryConditionsLabel": "Delivery conditions",
+        "deliveriMethodFCA": "FCA",
+        "deliveriMethodFCAPS": "pickup",
+        "deliveriMethodDAP": "DAP",
+        "deliveriMethodDAPPS": "to the settlement",
+        "deliveryAddress": "Settlement address",
+        "required": "This field is required",
+        "units": "Units",
+        "defferalTitle": "The postponement cannot exceed xx days. After the grace period expires, you are obliged to pay.",
+        "prePaymentTitle": "Prepayment cannot be more than xx%. Upon completion of the auction, you are required to make an advance payment within 30 days.",
+        "period": "Period",
+        "selectDate": "Select date"
+      },
+      "step3": {
+        "title": "Step 3/3",
+        "header": "Preview",
+        "warningAuction": "After the auction is published you will not edit the conditions of the auction"
+      }
+    },
+    "acceptOffer": {
+      "title": "The auction has been accepted, please contact the company to proceed with the transaction. Thanks!"
+    }
+  },
+  "company": {
+    "directionsOfActivity": "Main directions of activity:",
+    "typeOfOwnership": "Type of ownership",
+    "foundationDate": "Foundation date"
+  },
+  "value": {
+    "kg": "kg",
+    "t": "t",
+    "l": "l"
+  },
+  "customCurrentProducts": {
+    "title": {
+      "currentDemand": "Current demand",
+      "currentOffers": "Current offers",
+      "myCurrentOffers": "My currnt offers"
+    },
+    "step1": {
+      "header": "Create current item",
+      "typeLotBuy": "Purchase",
+      "typeLotSell": "Sale",
+      "currentDemand": "current demand",
+      "currentOffer": "current offer",
+      "type": "Type"
+    },
+    "header": "Current products",
+    "btnAddOffer": "Add Offer",
+    "userHasNoItems": "You don't have any offers yet, please create a new offer",
+    "ton": "T"
+  },
+  "subscriptions": {
+    "title": "Choose a subscription plan",
+    "year": "year",
+    "advantages": "Advantages:",
+    "bottomText1": "I haven't decided yet,",
+    "bottomText2": "take me back to the previous page",
+    "activePlan": "Active tariff plan",
+    "planDate": "The plan is active until",
+    "payment": {
+      "backButton": "Back to tariff plans",
+      "title": "Payment",
+      "online": "Pay online",
+      "onlineDescription": "Instant payment by card. When paying, a commission of 0.0% is charged",
+      "cashless": "Cashless payment",
+      "cashlessDescription": "We will generate an invoice and send it to your company email address",
+      "cancel": "Cancel",
+      "proceed": "Proceed",
+      "select": "select",
+      "selected": "selected"
+    },
+    "card": {
+      "card": {
+        "label": "Enter credit card information",
+        "notification": "Payment was successful"
+      },
+      "pay": "Pay"
+    },
+    "logistics": {
+      "a": "A",
+      "b": "B",
+      "title": "Check mileage",
+      "from": "From:",
+      "fromPlaceholder": "Choose a starting point",
+      "calculateRoute": "Calculate route",
+      "to": "to:",
+      "toPlaceholder": "Choose a destination",
+      "tariff": "Tariff (per ton)",
+      "weight": "Weight (in tons)",
+      "routeDetails": "Route details:",
+      "distance": "Route distance",
+      "noDistance": "0 km",
+      "noLocation": "No starting point",
+      "noDestination": "No destination",
+      "time": "Estimated travel time",
+      "noTime": "0 hours",
+      "total": "Total:",
+      "estimate": "Prices are estimates and may differ from the actual order",
+      "availableCompanies": "Available companies",
+      "company": {
+        "address": "Address:",
+        "phone": "Phone:",
+        "email": "E-mail:",
+        "website": "Website:",
+        "price": "Price:",
+        "description": "Description:"
+      }
+    }
+  },
+  "notifications": {
+    "loginSuccess": "You are logged in",
+    "registrationSuccess": "You are registered",
+    "profileUpdateSuccess": "Profile updated",
+    "pdfUpdateSucess": "Pdf updated",
+    "avatarUpdateSucess": "Profile picture updated",
+    "lotDeleted": "Lot removed",
+    "successfulBid": "Bet successfully placed",
+    "offerAccept": "Offer accepted",
+    "auctionCanceled": "Auction canceled"
+  },
+  "footer": {
+    "address": "142100, Moskovskaya oblast', Podolsk city, Serpukhovskaya st., building 43, office 2",
+    "company": {
+      "company": "Company",
+      "aboutUs": "About us",
+      "press": "Press",
+      "careers": "Careers",
+      "termsOfUse": "Terms of use",
+      "privacyPolicy": "Privacy Policy",
+      "contactUs": "Contact us",
+      "blog": "Blog"
+    },
+    "agronGroup": {
+      "agronGroup": "AGRON Group",
+      "social": "Social",
+      "lettingsAgents": "Lettings Agents",
+      "private": "Private",
+      "owners": "Owners",
+      "contractors": "Contractors",
+      "insurance": "Insurance"
+    },
+    "thirdCategory": {
+      "thirdCategory": "Third Category",
+      "login": "Sign In",
+      "howItWorks": "How It Works",
+      "association": "Association",
+      "joinAsTrader": "Join as Trader",
+      "offersAndDiscounts": "Offers and Discounts"
+    },
+    "copyrightNotice": "Copyright © 2021, Argon24. All rights reserved"
+  }
+}

@@ -1,0 +1,17 @@
+
+
+.info {
+  background-color: #efdbff;
+  padding: 10px 32px 10px 17.25px;
+  flex-wrap: nowrap;
+  align-items: center;
+  :nth-child(2) {
+    margin-left: 10px;
+  }
+}
+.warningIcon {
+  margin-top: 5px;
+}
+.text {
+  color: #434343;
+}

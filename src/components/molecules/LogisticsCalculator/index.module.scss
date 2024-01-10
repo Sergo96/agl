@@ -1,0 +1,117 @@
+.root {
+  padding-top: 40px;
+}
+
+.addPointButton {
+  width: auto;
+  margin-top: 20px;
+}
+.googleMap {
+  background: red;
+  height: 400px;
+  flex-basis: 50%;
+}
+.calculator {
+  flex-basis: 70%;
+  margin-top: 40px;
+}
+
+.calculatorInputField {
+  width: 130px;
+  &:nth-child(2) {
+    margin-left: 20px;
+  }
+}
+.button {
+  width: auto;
+  margin-left: 20px;
+  align-self: flex-end;
+}
+.total {
+  justify-content: end;
+  margin-top: 68px;
+  flex-basis: 30%;
+  text-align: right;
+
+  .totalValue {
+    color: #52c41a;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .estimate {
+    margin-top: 40px;
+  }
+}
+
+.outputValues {
+  margin-top: 54px;
+  .route {
+    border-left: 1px solid #cecece;
+    padding-left: 20px;
+    flex-basis: 50%;
+  }
+  .distance {
+    border-left: 1px solid #cecece;
+    padding-left: 20px;
+    flex-basis: 40%;
+  }
+}
+
+@include sm-max {
+  .calculator {
+    flex-basis: 60%;
+    margin-top: 0px;
+  }
+  .outputValues {
+    flex-direction: column;
+    border-left: none;
+    padding-left: 0;
+    .route {
+      border-left: none;
+    }
+    .distance {
+      margin-top: 30px;
+      margin-left: 0;
+      border-left: none;
+    }
+  }
+  .total {
+    margin-top: 32px;
+    flex-basis: 40%;
+    .estimate {
+      margin-top: 0px;
+      margin-bottom: 25px;
+    }
+  }
+}
+@include xs-max {
+  .calculator {
+    flex-basis: 100%;
+    .calculatorInputs {
+      justify-content: space-between;
+      .calculatorInputField {
+        flex-basis: 48%;
+        &:nth-child(2) {
+          margin-left: 0;
+        }
+      }
+      .button {
+        margin-top: 10px;
+        flex-basis: 100%;
+        margin-left: 0;
+      }
+    }
+  }
+  .total {
+    justify-content: center;
+    margin: 40px auto;
+    flex-basis: 100%;
+    flex-direction: column;
+    .totalOutput {
+      align-self: center;
+    }
+    .estimate {
+      margin-top: 0px;
+      text-align: center;
+    }
+  }
+}

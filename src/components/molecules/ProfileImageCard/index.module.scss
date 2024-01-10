@@ -1,0 +1,43 @@
+.imageCard {
+  display: flex;
+  margin-top: 25px;
+  margin-left: 5px;
+}
+
+.logoBox {
+  width: 164px;
+  height: 164px;
+  background: white;
+  position: relative;
+  &::after {
+    position: absolute;
+    content: ' ';
+    top: 0;
+    bottom: 0;
+    transform: scale(1.1);
+    display: block;
+    border: 1px solid #dad4ca;
+    border-radius: 6px;
+    width: 100%;
+  }
+}
+
+.logo {
+  padding: 0 12px;
+  width: 100%;
+}
+.description {
+  width: 235px;
+  margin-left: 35px;
+  & > * {
+    margin: 5px 0px;
+  }
+}
+.button {
+  background: none;
+}
+@include xs-max {
+  .description {
+    width: 180px;
+  }
+}

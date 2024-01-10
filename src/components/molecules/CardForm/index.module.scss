@@ -1,0 +1,19 @@
+.root {
+  margin: 40px auto;
+  width: 400px;
+}
+
+.formField {
+  width: 100%;
+  margin-bottom: 20px;
+
+  .formFieldSmall {
+    width: 48%;
+  }
+}
+.buttons {
+  width: 100%;
+}
+.button {
+  flex-basis: 48%;
+}

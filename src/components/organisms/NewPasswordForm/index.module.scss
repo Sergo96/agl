@@ -1,0 +1,28 @@
+
+
+.root {
+  width: 100%;
+  max-width: 320px;
+  margin: auto auto;
+}
+
+.shadowTitle {
+  text-align: center;
+  font-size: $font-size-xl;
+  color: $info-color;
+  font-weight: 500;
+}
+.formField {
+  margin-top: 24px;
+}
+
+.textField {
+  text-align: center;
+  margin-top: 36px;
+  margin-bottom: 25px;
+}
+
+.btnWide {
+  width: 100%;
+  font-size: $font-size-sm;
+}

@@ -1,0 +1,38 @@
+
+
+.section{
+  padding: 50px 0;
+  width: 100%;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.wrp{
+  padding: 30px 0;
+  margin: 0 -17px;
+}
+
+.label{
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.item{
+  margin: 0 17px;
+  width: 100%;
+  max-width: 279px;
+}
+
+.radioBtnHeader {
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 12px;
+}
+
+.deliveryConditionsWrp{
+  display: flex;
+  margin: 0 -17px;
+}
+
+.deliveryFormInput{
+  min-height: 40px;
+}

@@ -1,0 +1,124 @@
+.section {
+  width: 45%;
+}
+.sectionPdf {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .text {
+    margin-top: 35px;
+  }
+}
+.formField {
+  width: 48%;
+  margin-bottom: 20px;
+  &_bottom {
+    margin-bottom: 0;
+    width: 48%;
+  }
+}
+.selectField {
+  :global {
+    .ant-select {
+      width: 100%;
+    }
+  }
+}
+.formFieldLarge {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.text {
+  :global {
+    color: #767676;
+  }
+}
+.imgBox {
+  width: 18px;
+  height: 24px;
+}
+.img {
+  height: 100%;
+}
+
+.pdfInfoText {
+  font-size: 12px;
+  margin-left: 12px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pdfUpload {
+  width: 100%;
+  align-self: flex-end;
+  :global {
+    .ant-upload {
+      background: white;
+      width: 100%;
+      .ant-btn {
+        min-height: 134px;
+      }
+    }
+  }
+}
+.pdfUploadText {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #939393;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.buttons {
+  margin-top: 80px;
+  margin-bottom: 90px;
+}
+
+.submitButton {
+  width: auto;
+}
+.cancelButton {
+  margin-right: 30px;
+  width: auto;
+}
+.pdfUploadButton {
+  width: 100%;
+  svg {
+    margin-right: 10px;
+  }
+}
+@include sm-max {
+  .root {
+    flex-direction: column;
+  }
+  .formFieldLarge {
+    max-width: 534px;
+    margin-bottom: 16px;
+  }
+  .section {
+    width: 100%;
+  }
+  .sectionPdf {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .pdfInfo {
+    flex-basis: 49%;
+    flex-direction: column;
+  }
+
+  .pdfUpload {
+    flex-basis: 49%;
+  }
+
+  .pdfUpload {
+    height: 128px;
+  }
+}
+@include xs-max {
+  .pdfInfoText {
+    flex-basis: 85%;
+  }
+}

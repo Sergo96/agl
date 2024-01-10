@@ -1,0 +1,31 @@
+.root{
+  width: 100%;
+  max-width: 1180px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  padding-top: 45px;
+}
+.mainTitle{
+  margin-top: 20px;
+  line-height: 32px;
+}
+.typeWrp{
+  width: 100%;
+  margin-top: 40px;
+}
+
+.title{
+  margin-bottom: 20px;
+}

@@ -1,0 +1,24 @@
+.mainPrice{
+  font-size: 48px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.mainPrice:hover:after{
+  content:attr(title);
+  font-size: 14px;
+  color: $secondary-color;
+  background-color: #000;
+  padding: 8px 6px;
+  margin-left: 25px;
+}
+
+.title{
+  background-color: #000;
+  padding: 8px 6px;
+}
+
+
+.selectedCompany{
+  margin-bottom: 25px;
+}

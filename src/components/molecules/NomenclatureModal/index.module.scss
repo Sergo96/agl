@@ -1,0 +1,60 @@
+
+
+.wrp {
+  width: 100%;
+  max-width: 800px;
+  min-height: 590px;
+  border-radius: 4px;
+
+  :global {
+    .ant-modal-title {
+      font-size: 24px;
+      line-height: 32px;
+    }
+    .ant-modal-content {
+      padding: 10px 15px;
+    }
+    .ant-modal-body {
+      padding: 5px 20px;
+    }
+  }
+}
+
+.itemsWrp {
+  padding-bottom: 35px;
+}
+.subtitle {
+  font-size: $font-size-xs;
+  font-weight: 700;
+  margin-bottom: 8px;
+  display: block;
+  line-height: 22px;
+}
+.item {
+  width: 100%;
+  max-width: 360px;
+  margin-left: 0 !important;
+  padding: 4px 0;
+}
+
+.input {
+  width: 100%;
+  max-width: 595px;
+}
+
+.btnCreate {
+  width: 100%;
+  max-width: 120px;
+}
+
+.defaultBtn {
+  border: 1px solid $default-color;
+  max-width: 120px;
+}
+.saveBtn {
+  max-width: 120px;
+}
+
+.customItemsWrp {
+  margin-top: 20px;
+}

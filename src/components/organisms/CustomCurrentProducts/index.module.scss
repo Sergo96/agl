@@ -1,0 +1,23 @@
+.root{
+  width: 100%;
+  max-width: 1180px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+.tab {
+  width: 100%;
+}
+
+.header{
+  padding: 30px 0;
+  width: 100%;
+}
+
+.btn{
+  max-width: 214px;
+  background-color: $primary-color;
+  color: $secondary-color;
+  max-height: 40px;
+}

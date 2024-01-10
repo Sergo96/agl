@@ -1,0 +1,54 @@
+.icon{
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.editLink{
+  margin-bottom: 14px;
+  color: $primary-color;
+  cursor: pointer;
+}
+
+.formWrp{
+  margin: -3px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.input{
+  margin: 3px;
+  width: 100%;
+  max-width: 220px;
+  span{
+    font-weight: 500;
+    font-size: 16px;
+  }
+  position: relative;
+  padding-left: 20px;
+
+  &::before {
+    content: '$';
+    font-size: 24px;
+    font-weight: 600;
+    position: absolute;
+    left: 13px;
+    bottom: 0;
+    top: 0;
+  }
+}
+.btn {
+  margin: 3px;
+  max-width: 124px;
+  font-size: 14px;
+  height: 40px;
+}
+.add{
+  background-color: $primary-color;
+  color: $secondary-color
+}
+
+.inputLabel{
+  margin-top: 12px;
+}

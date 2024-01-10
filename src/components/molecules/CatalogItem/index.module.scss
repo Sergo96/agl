@@ -1,0 +1,24 @@
+.itemWrp {
+  width: 100%;
+  max-width: 312px;
+  padding: 15px;
+}
+.title {
+  color: white;
+}
+.subtitle {
+  position: relative;
+  width: fit-content;
+  cursor: pointer;
+  color: #faad14;
+
+  &::before {
+    content: '';
+    height: 1px;
+    background-color: #faad14;
+    width: 100%;
+    display: block;
+    position: absolute;
+    bottom: 4px;
+  }
+}

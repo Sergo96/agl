@@ -1,0 +1,12 @@
+.baseInput {
+  font-size: $font-size-sm;
+  height: 40px;
+  &::placeholder,
+  ::placeholder {
+    color: $placeholder-color;
+    font-size: $font-size-sm;
+  }
+  input {
+    height: 40px;
+  }
+}

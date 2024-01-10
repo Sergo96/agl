@@ -1,0 +1,46 @@
+// color
+$info-color: rgba(0, 0, 0, 0.85);
+$primary-color: #1890ff;
+$secondary-color: #fff;
+$light-grey-color: #8c8c8c;
+$error-color: #ff4d4f;
+$default-color: #d9d9d9;
+$placeholder-color: #8da0ad;
+$price-color: #52c41a;
+$background-color: #f7fcf6;
+
+//font-size
+$font-size-xs: 14px;
+$font-size-sm: 16px;
+$font-size-md: 18px;
+$font-size-lg: 20px;
+$font-size-xl: 24px;
+$font-size-xxl: 32px;
+$font-size-xxxl: 36px;
+
+//font-family;
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+}
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+}
+
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+}
+
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  src: url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+}

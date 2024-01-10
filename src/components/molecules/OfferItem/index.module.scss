@@ -1,0 +1,51 @@
+
+
+.itemWrp{
+  width: 100%;
+  max-width: 230px;
+  min-height: 250px;
+  background-color: $secondary-color;
+  padding: 19px 0 25px 0;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 6px;
+  box-shadow: 9px 6px 6px -4px #0000001F;
+}
+
+.header {
+  width: 100%;
+  padding: 0 30px;
+  font-size: $font-size-xs;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.title{
+  width: 100%;
+  font-weight: 700;
+}
+
+.subtitle{
+  width: 100%;
+  font-weight: 400;
+}
+
+.priceWrp{
+  background-color: $price-color;
+  padding: 5px 10px 5px 30px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.price {
+  text-transform: uppercase;
+  font-size: $font-size-xl;
+  color: $secondary-color;
+  font-weight: 400;
+}
+
+.deliveryWrp{
+  padding: 0 30px;
+}
+
+.delivery{
+  margin-top: 5px;
+}

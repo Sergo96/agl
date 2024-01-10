@@ -1,0 +1,83 @@
+.formField {
+  width: 49%;
+  margin-bottom: 20px;
+}
+.formFieldSmall {
+  margin-bottom: 20px;
+  width: 23.5%;
+}
+.formFieldLarge {
+  width: 100%;
+}
+.formFieldMedium {
+  max-width: 380px;
+  margin-bottom: 20px;
+  width: 33%;
+}
+.formSelectField {
+  width: 100%;
+  :global {
+    .ant-select-lg {
+      width: 100%;
+    }
+  }
+}
+.formInputAreaField {
+  :global {
+    textarea.ant-input {
+      min-height: 130px;
+    }
+  }
+}
+
+.buttons {
+  margin-top: 40px;
+  margin-bottom: 90px;
+  background: none;
+}
+.submitButton {
+  width: auto;
+}
+.cancelButton {
+  margin-right: 30px;
+  width: auto;
+}
+
+@include sm-max {
+  .formField {
+    max-width: none;
+  }
+  .root {
+    .formField:nth-child(3) {
+      width: 100%;
+    }
+  }
+  .formFieldMedium {
+    max-width: none;
+    width: 49%;
+  }
+  .formFieldSmall {
+    width: 49%;
+  }
+}
+
+@include xs-max {
+  .formField {
+    width: 100%;
+  }
+
+  .formFieldMedium {
+    max-width: none;
+    width: 100%;
+  }
+  .formFieldSmall {
+    width: 100%;
+  }
+}
+.selectField {
+  :global {
+    .ant-select {
+      width: 100%;
+    }
+  }
+}

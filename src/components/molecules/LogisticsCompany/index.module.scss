@@ -1,0 +1,81 @@
+.root {
+  line-height: 24px;
+  padding: 33px 21px 30px;
+  justify-content: center;
+}
+.titleMobile {
+  display: none;
+}
+.companyInfoColumn {
+  &:nth-child(1) {
+    flex-basis: 15%;
+  }
+  &:nth-child(2) {
+    flex-basis: 30%;
+  }
+  &:nth-child(3) {
+    margin-top: 34px;
+    flex-basis: 45%;
+  }
+}
+
+.imgBox {
+  border: 1px solid #dad4ca;
+  padding: 4px;
+  border-radius: 6px;
+}
+.title {
+  margin-bottom: 10px;
+}
+
+@include sm-max {
+  .root {
+    justify-content: flex-start;
+    padding: 28px 21px 22px;
+  }
+  .companyInfoColumn {
+    justify-content: flex-start;
+    &:nth-child(1) {
+      margin-right: 65px;
+      flex-basis: auto;
+    }
+    &:nth-child(2) {
+      flex-basis: auto;
+    }
+    &:nth-child(3) {
+      margin-top: 0px;
+      flex-basis: 70%;
+    }
+  }
+}
+@include xs-max {
+  .root {
+    margin-top: 30px;
+  }
+  .titleMobile {
+    display: block;
+  }
+  .title {
+    display: none;
+  }
+  .companyInfoColumn {
+    align-content: flex-start;
+    &:nth-child(2) {
+      margin-top: 12px;
+      flex-basis: 100%;
+    }
+    &:nth-child(3) {
+      margin-top: 5px;
+      flex-basis: 100%;
+    }
+  }
+  .imgBox {
+    border: 1px solid #dad4ca;
+    padding: 4px;
+    border-radius: 6px;
+    margin-right: 20px;
+  }
+  .img {
+    width: 47px;
+  }
+}

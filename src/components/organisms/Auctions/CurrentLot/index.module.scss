@@ -1,0 +1,201 @@
+.root{
+  width: 100%;
+  max-width: 1280px;
+  min-height: 100vh;
+  padding-top: 44px;
+}
+
+.header{
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.back{
+  margin-bottom: 17px;
+}
+.wrpContent{
+  padding-bottom: 40px;
+  margin: 0 -60px
+}
+
+.wrpOffers{
+  padding-bottom: 60px;
+}
+.item{
+  width: 100%;
+  max-width: 582px;
+  padding: 13px 20px;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.column{
+ position: relative;
+ width: 100%;
+ max-width: 582px;
+ margin: 0 60px;
+ padding: 20px 0;
+}
+
+
+.columnLeft {
+  position: relative;
+  width: 100%;
+  max-width: 482px;
+  margin: 0 60px
+}
+
+.data div:nth-child(odd) {
+  background-color: $secondary-color;
+}
+
+.arrowBtn{
+  border: none;
+  width: auto;
+  background: none;
+  color: $placeholder-color;
+  padding: 0 10px;
+}
+.arrowBtnIcon {
+  color: $placeholder-color;
+}
+
+.timeWrp{
+  padding: 20px 0; 
+}
+.time{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.timeToExpire{
+  color: #FAAD14;
+  margin-right: 55px;
+}
+
+.mainPrice{
+  font-size: 48px;
+}
+
+.title{
+  font-size: 14px;
+  max-width: 180px;
+  width: 50%;
+}
+
+.timeLeft{
+  position: absolute;
+  right: 0;
+  margin-right: -55px;
+  bottom: -20px;
+  color: $default-color;
+  &::after {
+    content: ' ';
+    top: 0;
+    bottom: 0;
+    display: block;
+    width: 60px;
+    height: 1px;
+  }
+}
+
+.line{
+  height: 1px;
+  width: 61px;
+  background-color: $default-color;
+  margin-right: 8px;
+}
+
+.selectedCompany{
+  margin-bottom: 25px;
+}
+.icon{
+  margin-right: 10px;
+}
+
+.companyLink{
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 35px
+}
+
+.editLink{
+  margin-bottom: 14px
+}
+
+.formWrp{
+  margin: -3px;
+  margin-top: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.input{
+  margin: 3px;
+  width: 100%;
+
+  span{
+    font-weight: 500;
+    font-size: 16px;
+  }
+}
+.btn {
+  margin: 3px;
+}
+.add{
+  background-color: $primary-color;
+  color: $secondary-color
+}
+
+.tableBtn{
+  color: $primary-color;
+  max-width: 100px;
+}
+
+.rejectBtn{
+  max-width: 180px;
+}
+
+.rejectSubtitle{
+  margin-top: 14px;
+  line-height: 24px;
+}
+
+.madalWrp{
+  width: 100%;
+  max-width: 480px;
+  min-height: 200px;
+  border-radius: 4px;
+
+  :global {
+    .ant-modal-title {
+      font-size: 24px;
+      line-height: 32px;
+    }
+    .ant-modal-body {
+      padding: 20px 20px;
+      overflow-y: scroll;
+    }
+  }
+}
+
+
+.btnCreate {
+  width: 100%;
+  max-width: 120px;
+
+}
+
+.defaultBtn {
+  border: 1px solid $default-color;
+}
+
+.formInputAreaField{
+  resize: none;
+  height: 130px !important;
+
+  :global {
+    textarea.ant-input {
+      min-height: 130px;
+    }
+  }
+}

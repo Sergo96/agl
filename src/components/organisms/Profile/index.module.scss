@@ -1,0 +1,27 @@
+.root {
+  margin-left: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+.title {
+  font-size: 24px;
+}
+.imageCard {
+  margin-bottom: 70px;
+}
+
+@include lg-max {
+  .root {
+    margin: 0 24px;
+  }
+  .imageCard {
+    margin-bottom: 60px;
+  }
+}
+@include xs-max {
+  .root {
+    margin: 0 16px;
+  }
+  .imageCard {
+    margin-bottom: 50px;
+  }
+}

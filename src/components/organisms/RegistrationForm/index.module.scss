@@ -1,0 +1,36 @@
+
+
+
+.stepNumber {
+  color: $primary-color;
+  font-size: $font-size-sm;
+  font-weight: 500;
+}
+
+.title {
+  font-size: $font-size-xl;
+  font-weight: 500;
+  color: $info-color;
+}
+
+.stepsContent {
+  min-height: 400px;
+  margin-top: 30px;
+}
+
+.stepsAction {
+  margin-top: 56px;
+  position: relative;
+}
+
+.btnNext {
+  right: 0;
+  position: absolute;
+  width: 150px;
+}
+
+@include xs-max {
+  .titleWrp {
+    margin-bottom: 15px;
+  }
+}
